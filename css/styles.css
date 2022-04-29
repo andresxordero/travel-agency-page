@@ -1,0 +1,270 @@
+* {
+  font-family: 'Poppins';
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+/* HEADER */
+#logo{
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FF8900;
+}
+.nav-item{
+  font-weight: normal;
+}
+#selected{
+  color: #FF8900;
+  font-weight: bolder;
+}
+#navbarSupportedContent{
+  margin-left: 13.5%;
+}
+#user{
+  margin-left: 430px;
+  height: 40px;
+}
+
+/* CONTENIDO */
+
+.detalleCotizacion{
+  font-family: 'Poppins';
+}
+#sidebar {
+  width: 30%;
+  float: right;
+  align-items: center;
+}
+#sidebar h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+}
+#sidebar img {
+  width: 100%;
+}
+#sidebar p {
+  text-align: justify;
+}
+body {
+  background-color:#F9F9F9;
+  background-attachment: fixed;
+}
+.slide img{
+  max-height: 600px ;
+}
+#posts {
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+.post {
+  padding-left:100px;
+  padding-right:100px;
+  padding-top: 50px;
+}
+.post h2 {
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+.post .date {
+  display: block;
+  color: #6FAFD2;
+  font-size: 14px;
+}
+.post p {
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.button-more {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FF8900;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 70px;
+}
+.button-cotizar {
+  font-size: 25px;
+  font-weight: bold;
+  color: #F9F9F9;
+  background-color: rgb(255, 137, 0);
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  height: 70px;
+  width: 250px;
+  border: white;
+}
+.button-limpiar{
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF8900;
+  background-color: transparent;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 70px;
+  width: 250px;
+  border: white;
+}
+.img-articulo{
+  max-width: 800px;
+}
+hr.hr{
+  border: 1px solid #FF8900;
+}
+#titulo{
+background-color: rgb(255, 137, 0);
+color: #f9f9f9;
+margin-top: 0px;
+padding-top: 7px;
+padding-bottom: 7px;
+margin-bottom: 30px;
+height: 70px;
+}
+.titulo{
+  background-color:#6FAFD2;
+  color: #f9f9f9;
+  margin-top: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 30px;
+  height: 70px;
+  }
+#formulario{
+  margin-left: 20px;
+}
+#hr{
+  color: #FF8900;
+  margin-top: 5px;
+  border: 3px solid #6FAFD2;
+  width: 380px;
+}
+
+#hr2{
+  color: #FF8900;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: 3px solid #6FAFD2;
+  width: 600px;
+}
+
+.enfasis-columna {
+  margin-top: 45px;
+  width: 560px;
+  text-align: left;
+  border-collapse: collapse;
+}
+.enfasis-columna caption {
+  font-size: 20px;
+}
+.enfasis-columna tr {
+  font-size: 14px;
+  font-weight: normal;
+  color: #039;
+}
+.enfasis-columna td {
+  padding: 10px 15px;
+  color: #2A3235;
+  border-top: 1px solid #e8edff;
+}
+.columna {
+  background: #d0dafd;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+#enfasis-columna tr:hover td {
+  color: #FF8900;
+  background: #eff2ff;
+}
+.imgCotizacion{
+  width: 10px;
+  align-items: flex-end;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2A3235;
+  color: #F9F9F9;
+  margin-top: 25px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 137, 0);
+}
+#obligatorios{
+  font-size: 15px;
+  color: #6FAFD2;
+}
+#box {
+  width: 60%;
+  float: left;
+  margin-top: 40px;
+}
+#detalle{
+  font-family: 'Poppins';
+  width: 60%;
+  float: left;
+  margin-top: 40px;
+}
+#detalle h1{
+  font-family: 'Poppins';
+}
+#detalle img{
+  width: 800px;
+  align-self: flex-end;
+}
+.button-regresar {
+  font-size: 15px;
+  font-weight: bold;
+  color: #F9F9F9;
+  background-color: rgb(255, 137, 0);
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  height: 50px;
+  width: 250px;
+  border: white;
+}
+#detallesTitulos{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 137, 0);
+  margin-left: 20px;
+}
+#detallesImagen{
+  max-height: 600px;
+  margin-left: 20px;
+}
+#contactoTitulo{
+  margin-left: 20px;
+}
+#contactoRedes{
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+#detalleSubtitulo{
+  margin-left: 20px;
+}
